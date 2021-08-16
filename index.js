@@ -35,12 +35,21 @@ function removeLastCat () {
     return newCats
 }
 
+/* function removeLastCat () { 
+    cats.slice(0, -1)
+    also can do this 
+}
+ */ 
+
 function removeFirstCat () { 
     const newCats = cats.slice(1)
     return newCats
 }
 
-
+/* function removeFirstCat () { 
+    cats.slice(1)
+}
+ */ 
 
 
 
